@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: cursive;
+}
+body{
+    width: 720px;
+}
+.logo{
+    height: 40px;
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.cart{
+    height: 40px;
+}
+.button{
+    background-color: white;
+    border: 0;
+    padding: 0;
+    font-size: large;
+}
+.input{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 30px;
+}
+.plants{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+}
+.plants a {
+    color: black;
+    text-decoration: none;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+}
+.slide a{
+    color: black;
+    text-decoration: none;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+hr{
+    border: 2px solid black;
+}
+.title{
+    text-align: center;
+}
+.main{
+    display: flex;
+    height: fit-content;
+}
+.left{
+    display: flex;
+    margin-right: 10px;
+    height: fit-content;
+}
+.text1{
+    background-color: #00d1b2;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: large;
+}
+.text2{
+    background-color: #00d1b2;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 5px;
+}
+.succ{
+    height: 180px;
+}
+.aloe{
+    height: 135px;
+    width: 300px;
+}
+.arrow1{
+    height: 17px;
+    margin-top: 10px;
+}
+.arrow2{
+    height: 17px;
+    margin-top: 7px;
+}
+.slide{
+    background-color: #aae8d8;
+}
+.slideimg{
+    display: flex;
+    justify-content: start;
+}
+.imgs{
+    border-radius: 50%;
+    height: 100px;
+    margin: 0px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.alert{
+    height: 40px;
+    margin-right: 10px;
+}
+.cookies{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    background-color: #ffffff;
+    width: 710px;
+    padding: 10px;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);  
+}
+.button2{
+    text-align: center;
+    width: 100px;
+    background-color: #00d1b2;
+    padding: 3px;
+    box-shadow: 3px 3px 3px black;
+}
+.searchicon{
+    height: 20px;
+    position: relative;
+    right: 30px;
+}
